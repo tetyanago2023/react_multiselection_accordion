@@ -10,8 +10,8 @@
 
 .acc-wrapper button {
     padding: 10px 20px;
-    background: #614101;
-    color: #fff;
+    background: #008080;
+    color: #FFBF00;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
@@ -22,20 +22,32 @@
 }
 
 .item {
-    background: #614101;
+    background: #008080;
     margin-bottom: 10px;
     padding: 10px 20px;
 }
 
 .title {
-    color: #ffffff;
+    color: #FFBF00;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     cursor: pointer;
 }
 
+.title-line1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.title-line1 h3 {
+    margin: 0; /* Remove default margin for h3 */
+}
+
 .acc-content {
-    color: #ffffff;
+    color: #FFBF00;
     height: auto;
 }
